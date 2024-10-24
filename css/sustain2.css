@@ -1,4 +1,4 @@
-/* styles the body of the webpage*/
+/* styles the body of the webpage */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -17,7 +17,6 @@ body {
     border: 1px solid #ccc;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 #header {
     text-align: center;
@@ -56,8 +55,6 @@ body {
     font-size: 18px;
 }
 
-
-
 #flyweight-info {
     margin: 20px 0;
     text-align: center;
@@ -78,7 +75,6 @@ body {
     display: inline-block;
     margin: 0 auto;
 }
-
 
 .fighter-section {
     border-bottom: 2px solid red;
