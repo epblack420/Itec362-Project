@@ -1,0 +1,147 @@
+/* styles the body of the webpage*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    display: block;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#main-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#header {
+    text-align: center;
+    border-bottom: 4px solid red;
+    padding-bottom: 10px;
+}
+
+#logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#site-title {
+    font-size: 28px;
+    color: black;
+    margin: 0;
+}
+
+#logo {
+    height: 70px;
+    margin-top: 10px;
+}
+
+#main-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+
+#flyweight-info {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* styles the fighter headings */
+#flyweight-info h2 {
+    font-size: 30px;
+    color: black;
+}
+
+/* styles the paragraphs in the flyweight information sections */
+#flyweight-info p {
+    font-size: 18px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+.fighter-section {
+    border-bottom: 2px solid red;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+/* Styles the images of the fighters */
+.fighter-pic {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.fighter-info {
+    margin-top: 10px;
+}
+
+/* The fighter names */
+.fighter-section h3 {
+    font-size: 32px;
+    color: black;
+}
+
+.fighter-section h4 {
+    font-size: 24px;
+    color: darkslategray;
+}
+
+/* styles all the stats and details I have input for each fighter */
+.fighter-stats, .fighter-details {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    color: darkslategray;
+    margin: 0;
+}
+
+.fighter-stats li, .fighter-details li {
+    font-size: 20px;
+}
+
+/* Footer Section */
+#contact-footer {
+    display: block;
+    text-align: center;
+    border-top: 2px solid red;
+    padding-top: 20px;
+}
+
+#social-icons {
+    margin-top: 10px;
+}
+
+#feedback-link {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}
