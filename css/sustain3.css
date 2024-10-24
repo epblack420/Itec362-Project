@@ -1,1 +1,142 @@
+/* styles the body for the webpage*/
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
 
+  #header {
+    background-color: white;
+    padding: 10px;
+    border-bottom: 2px solid red;
+    text-align: center;
+  }
+  
+ /* styles te tittle of th page */ 
+  #site-title {
+    display: block;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  #logo {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #main-nav {
+    margin-top: 10px;
+  }
+  
+  #nav-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #nav-list li {
+    margin-bottom: 10px;
+  }
+  
+  #nav-list a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid transparent;
+  }
+  
+  
+
+  #feedback-section {
+    margin-top: 30px;
+  }
+  
+/* Styles the title of the feedback form*/
+  #feedback-title {
+    font-size: 28px;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+  }
+  
+/* styles the punch image*/   
+  #feedback-img {
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+/* styles the overall look of the form*/  
+  #form-section {
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+  }
+ 
+/* Styles the labels that are in the form*/
+  #feedback-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  #feedback-form input[type="text"],
+  #feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+  
+  #feedback-form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+/* stylees the text area in the feedback form*/
+  #feedback-form textarea {
+    height: 150px;
+  }
+  
+  
+  #contact-footer {
+    background-color: white;
+    padding: 20px;
+    border-top: 2px solid red;
+    margin-top: 20px;
+  }
+  
+  #contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+  
+  #contact-list li {
+    margin-bottom: 10px;
+  }
+  
+  #social-icons img {
+    margin: 0 10px;
+  }
+  
+  #home-link {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  #home-link:hover {
+    background-color: darkred;
+  }
