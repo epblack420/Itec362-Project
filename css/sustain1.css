@@ -1,7 +1,7 @@
 /* Styles the entire body of the page*/
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: silver;
     margin: 0;
     padding: 0;
 }
@@ -54,7 +54,7 @@ nav#main-nav ul li a {
 
 
 #welcome-section {
-    background-color: lightgray;
+    background-color: white;
     text-align: center;
     padding: 20px;
     margin: 20px auto;
@@ -92,7 +92,7 @@ nav#main-nav ul li a {
 }
 
 #weight-classes ul li {
-    background-color: lightgray;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
