@@ -42,17 +42,26 @@ body {
     margin-top: 10px;
 }
 
-#main-nav ul {
+nav#main-nav {
+    flex-grow: 1;
     display: flex;
     justify-content: center;
-    gap: 15px;
-    padding-top: 10px;
 }
 
-#main-nav ul li a {
+/* Removes the bullet points in the navigation section*/
+nav#main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav#main-nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 18px;
+    font-weight: bold;
 }
 
 #flyweight-info {
