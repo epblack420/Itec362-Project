@@ -1,32 +1,35 @@
 /* Styles the entire body of the page*/
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: lightgrey;
     margin: 0;
     padding: 0;
 }
 
 /* Styles the header */
-header {
+#header {
+    text-align: center;
+    border-bottom: 4px solid red;
+    padding-bottom: 10px;
     background-color: white;
-    border-bottom: 2px solid lightblue;
+}
+
+#logo-title {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex-direction: column;
 }
 
 #site-title {
-    font-size: 24px;
+    font-size: 28px;
+    color: black;
     margin: 0;
-    display: flex;
-    align-items: center;
 }
 
-/* Adds some space between the title and logo*/
-#site-title img {
-    margin-left: 10px;
+#logo {
+    height: 70px;
+    margin-top: 10px;
 }
 
 /* Styles the navigation section*/
@@ -52,9 +55,16 @@ nav#main-nav ul li a {
     font-weight: bold;
 }
 
+/* Highlight nav links when hovered */
+nav#main-nav ul li a:hover {
+    color: red; /* Changes text color to red on hover */
+    background-color: lightgray; /* Optional: Adds a background color on hover */
+    border-radius: 5px; /* Optional: Adds rounded corners for the background */
+}
+
 
 #welcome-section {
-    background-color: silver;
+    background-color: white;
     text-align: center;
     padding: 20px;
     margin: 20px auto;
@@ -92,7 +102,7 @@ nav#main-nav ul li a {
 }
 
 #weight-classes ul li {
-    background-color: silver;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,4 +166,3 @@ nav#main-nav ul li a {
     margin-top: 10px;
     display: inline-block;
 }
-
