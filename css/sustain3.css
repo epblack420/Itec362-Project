@@ -26,26 +26,37 @@ body {
     margin: 0 auto;
 }
 
-#main-nav {
-    margin-top: 10px;
+/* Styles the navigation section*/
+nav#main-nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
 }
 
-#nav-list {
-    list-style: none;
+/* Removes the bullet points in the navigation section*/
+nav#main-nav ul {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
+    display: flex;
+    gap: 20px;
 }
 
-#nav-list li {
-    margin-bottom: 10px;
-}
-
-#nav-list a {
+nav#main-nav ul li a {
     text-decoration: none;
+    color: black;
     font-size: 18px;
     font-weight: bold;
-    color: black;
-    border-bottom: 2px solid transparent;
 }
+
+/* Highlight nav links when hovered */
+nav#main-nav ul li a:hover {
+    color: red; /* Changes text color to red on hover */
+    background-color: lightgray; /* Optional: Adds a background color on hover */
+    border-radius: 5px; /* Optional: Adds rounded corners for the background */
+}
+
+
 
 #feedback-section {
     margin-top: 30px;
