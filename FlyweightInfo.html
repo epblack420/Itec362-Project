@@ -1,147 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>FighterFocus Flyweight</title>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="css/sustain2.css" rel="stylesheet" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="header">
-        <div id="logo-title">
-            <h1 id="site-title">FighterFocus</h1>
-            <img id="logo" src="Images/logo_pic.jpg" width="100" height="70" alt="FighterFocus Logo" />
-        </div>
-        <nav id="main-nav">
-            <ul id="nav-list">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./FlyweightInfo.html">Flyweight</a></li>
-                <li><a href="./feedback.html">Feedback</a></li>
-            </ul>
-        </nav>
+      <div id="logo-title">
+        <h1 id="site-title">FighterFocus</h1>
+        <img id="logo" src="Images/logo_pic.jpg" width="100" height="70" alt="FighterFocus Logo" />
+      </div>
+      <nav id="main-nav">
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="FlyweightInfo.html">Flyweight</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section id="flyweight-info">
-        <h2>Flyweight</h2>
-        <p>Flyweight consists of fighters that weigh right around the 125lbs mark.<br />This division is known for its smaller yet much faster fighters with knockout potential.</p>
+      <h2>Flyweight</h2>
+      <p>Flyweight consists of fighters that weigh right around the 125lbs mark.<br />This division is known for its smaller yet much faster fighters with knockout potential.</p>
     </section>
 
-    <section class="fighter-section" id="fighter-pantoja">
-        <h3>Champion <img class="fighter-pic" src="Images/PANTOJA_ALEXANDRE.png" alt="Pantoja pic" /></h3>
-        <h4>Alexandre Pantoja</h4>
-        <ul class="fighter-stats">
-            <li>Height: 5'5</li>
-            <li>Weight: 125lbs</li>
-            <li>Age: 34</li>
-            <li>Reach: 68in</li>
-            <li>Nationality: Brazil</li>
-        </ul>
-        <h4>"The Cannibal"</h4>
-        <ul class="fighter-details">
-            <li>Striking: Basic Kickboxing</li>
-            <li>Grappling: BJJ with a specialty in submissions</li>
-            <li>Training Camp: American Top Team</li>
-            <li>Strengths: Grappling, Counter punches, step-in jab</li>
-            <li>Weakness: Poor striking, lack of head movement</li>
-        </ul>
-    </section>
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Fighter</th>
+          <th>Stats</th>
+          <th>Nickname</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Alexandre Pantoja -->
+        <tr>
+          <td>Champion</td>
+          <td>
+            <img src="Images/PANTOJA_ALEXANDRE.png" alt="Pantoja">
+            <br />Alexandre Pantoja
+          </td>
+          <td>
+            Height: 5'5<br />
+            Weight: 125lbs<br />
+            Age: 34<br />
+            Reach: 68in<br />
+            Nationality: Brazil
+          </td>
+          <td class="nickname">"The Cannibal"</td>
+          <td>
+            Striking: Basic Kickboxing<br />
+            Grappling: BJJ with a specialty in submissions<br />
+            Training Camp: American Top Team<br />
+            Strengths: Grappling, Counter punches, step-in jab<br />
+            Weakness: Poor striking, lack of head movement
+          </td>
+        </tr>
+        <!-- Brandon Royval -->
+        <tr>
+          <td>1</td>
+          <td>
+            <img src="Images/ROYVAL_BRANDON_.png" alt="Royval">
+            <br />Brandon Royval
+          </td>
+          <td>
+            Height: 5'9<br />
+            Weight: 125lbs<br />
+            Age: 32<br />
+            Reach: 68in<br />
+            Nationality: United States
+          </td>
+          <td class="nickname">"Raw Dawg"</td>
+          <td>
+            Striking: Muay Thai<br />
+            Grappling: BJJ Black Belt<br />
+            Training Camp: Factory X<br />
+            Strengths: Clinch, Low kicks, submissions<br />
+            Weakness: Wild fighting style that leaves his chin open
+          </td>
+        </tr>
+        <!-- Brandon Moreno -->
+        <tr>
+          <td>2</td>
+          <td>
+            <img src="Images/MORENO_BRANDON.png" alt="Moreno">
+            <br />Brandon Moreno
+          </td>
+          <td>
+            Height: 5'7<br />
+            Weight: 125lbs<br />
+            Age: 30<br />
+            Reach: 70in<br />
+            Nationality: Mexico
+          </td>
+          <td class="nickname">"The Assassin Baby"</td>
+          <td>
+            Striking: Traditional Boxing<br />
+            Grappling: BJJ Black Belt<br />
+            Training Camp: Brazilian Warriors BJJ<br />
+            Strengths: Excellent submission and ground game<br />
+            Weakness: Lack of striking defense, overextends punches
+          </td>
+        </tr>
+        <!-- Kai Kara-France -->
+        <tr>
+          <td>3</td>
+          <td>
+            <img src="Images/KARA-FRANCE_KAI.png" alt="Kai Kara-France">
+            <br />Kai Kara-France
+          </td>
+          <td>
+            Height: 5'4<br />
+            Weight: 125lbs<br />
+            Age: 31<br />
+            Reach: 69in<br />
+            Nationality: New Zealand
+          </td>
+          <td class="nickname">"Don't Blink"</td>
+          <td>
+            Striking: Proficient Kickboxing/ Muay Thai<br />
+            Grappling: Wrestling<br />
+            Training Camp: City Kickboxing<br />
+            Strengths: Powerful straights/hooks, insane knockouts<br />
+            Weakness: Poor takedown defense, usually controlled by experienced wrestlers
+          </td>
+        </tr>
+        <!-- Tatsuro Taira -->
+        <tr>
+          <td>4</td>
+          <td>
+            <img src="Images/TAIRA_TATSURO.png" alt="Taira">
+            <br />Tatsuro Taira
+          </td>
+          <td>
+            Height: 5'7<br />
+            Weight: 126lbs<br />
+            Age: 24<br />
+            Reach: 70in<br />
+            Nationality: Japan
+          </td>
+          <td class="nickname">"N/A"</td>
+          <td>
+            Striking: Boxing/ decent kickboxing<br />
+            Grappling: Brazilian Jiu-Jitsu<br />
+            Training Camp: Paraestra Okinawa<br />
+            Strengths: Striking defense and grappling<br />
+            Weakness: Poor cardio for later rounds, over commits to submissions
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
-    <section class="fighter-section" id="fighter-royval">
-        <h3>1 <img class="fighter-pic" src="Images/ROYVAL_BRANDON_.png" width="60" height="75" alt="Royval pic"></h3>
-        <h4>Brandon Royval</h4>
-        <ul class="fighter-stats">
-            <li>Height: 5'9</li>
-            <li>Weight: 125lbs</li>
-            <li>Age: 32</li>
-            <li>Reach: 68in</li>
-            <li>Nationality: United States</li>
-        </ul>
-        <h4>"Raw Dawg"</h4>
-        <ul class="fighter-details">
-            <li>Striking: Muay Thai</li>
-            <li>Grappling: BJJ Black Belt</li>
-            <li>Training Camp: Factory X</li>
-            <li>Strengths: Clinch, Low kicks, submissions</li>
-            <li>Weakness: Wild fighting style that leaves his chin open</li>
-        </ul>
-    </section>
-
-    <section class="fighter-section" id="fighter-moreno">
-        <h3>2 <img class="fighter-pic" src="Images/MORENO_BRANDON.png" width="60" height="75" alt="Moreno pic"></h3>
-        <h4>Brandon Moreno</h4>
-        <ul class="fighter-stats">
-            <li>Height: 5'7</li>
-            <li>Weight: 125lbs</li>
-            <li>Age: 30</li>
-            <li>Reach: 70in</li>
-            <li>Nationality: Mexico</li>
-        </ul>
-        <h4>"The Assassin Baby"</h4>
-        <ul class="fighter-details">
-            <li>Striking: Traditional Boxing</li>
-            <li>Grappling: BJJ Black Belt</li>
-            <li>Training Camp: Brazilian Warriors BJJ</li>
-            <li>Strengths: Excellent submission and ground game</li>
-            <li>Weakness: Lack of striking defense, overextends punches</li>
-        </ul>
-    </section>
-
-    <section class="fighter-section" id="fighter-kara-france">
-        <h3>3 <img class="fighter-pic" src="Images/KARA-FRANCE_KAI.png" width="60" height="75" alt="Kara-France pic"></h3>
-        <h4>Kai Kara-France</h4>
-        <ul class="fighter-stats">
-            <li>Height: 5'4</li>
-            <li>Weight: 125lbs</li>
-            <li>Age: 31</li>
-            <li>Reach: 69in</li>
-            <li>Nationality: New Zealand</li>
-        </ul>
-        <h4>"Don't Blink"</h4>
-        <ul class="fighter-details">
-            <li>Striking: Proficient Kickboxing/Muay Thai</li>
-            <li>Grappling: Wrestling</li>
-            <li>Training Camp: City Kickboxing</li>
-            <li>Strengths: Powerful straights/hooks, insane knockouts</li>
-            <li>Weakness: Poor takedown defense, usually controlled by experienced wrestlers</li>
-        </ul>
-    </section>
-
-    <section class="fighter-section" id="fighter-taira">
-        <h3>4 <img class="fighter-pic" src="Images/TAIRA_TATSURO.png" width="60" height="75" alt="Taira pic"></h3>
-        <h4>Tatsuro Taira</h4>
-        <ul class="fighter-stats">
-            <li>Height: 5'7</li>
-            <li>Weight: 126lbs</li>
-            <li>Age: 24</li>
-            <li>Reach: 70in</li>
-            <li>Nationality: Japan</li>
-        </ul>
-        <h4>"N/A"</h4>
-        <ul class="fighter-details">
-            <li>Striking: Boxing/decent kickboxing</li>
-            <li>Grappling: Brazilian Jujitsu</li>
-            <li>Training Camp: Paraestra Okinawa</li>
-            <li>Strengths: Striking defense and grappling</li>
-            <li>Weakness: Poor cardio for later rounds, over commits to submissions</li>
-        </ul>
-    </section>
-
+      
     <footer id="contact-footer">
-        <div id="contact-info">
-            <h4>Contact:</h4>
-            <ul>
-                <li>Phone: (123)-456-7890</li>
-                <li>Email: fighterfocus@gmail.com</li>
-            </ul>
-        </div>
-        <div id="social-icons">
-            <img src="Images/xLogo.png" width="70" height="50" alt="X logo" />
-            <img src="Images/instagram_logo.webp" width="50" height="50" alt="Instagram pic" />
-            <img src="Images/Facebook_f_logo.png" width="50" height="50" alt="Facebook logo" />
-        </div>
-        <a id="feedback-link" href="./feedback.html">Feedback Form</a>
+      <div id="contact-info">
+        <h4>Contact:</h4>
+        <ul>
+          <li>Phone: (123)-456-7890</li>
+          <li>Email: fighterfocus@gmail.com</li>
+        </ul>
+      </div>
+      <div id="social-icons">
+        <img src="Images/xLogo.png" width="70" height="50" alt="X logo" />
+        <img src="Images/instagram_logo.webp" width="50" height="50" alt="Instagram pic" />
+        <img src="Images/Facebook_f_logo.png" width="50" height="50" alt="Facebook logo" />
+      </div>
+      <a id="feedback-link" href="feedback.html">FeedBack Form</a>
     </footer>
-</body>
+  </body>
 </html>
