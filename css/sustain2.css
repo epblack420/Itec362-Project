@@ -1,9 +1,9 @@
-/* styles the body of the webpage */
+/* styles the body of the webpage*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: lightgray;
     display: block;
     min-height: 100vh;
     width: 100%;
@@ -18,10 +18,12 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 #header {
     text-align: center;
     border-bottom: 4px solid red;
     padding-bottom: 10px;
+    background-color: white;
 }
 
 #logo-title {
@@ -42,6 +44,7 @@ body {
     margin-top: 10px;
 }
 
+/* Styles the navigation section*/
 nav#main-nav {
     flex-grow: 1;
     display: flex;
@@ -64,6 +67,15 @@ nav#main-nav ul li a {
     font-weight: bold;
 }
 
+/* Highlight nav links when hovered */
+nav#main-nav ul li a:hover {
+    color: red; /* Changes text color to red on hover */
+    background-color: lightgray; /* Optional: Adds a background color on hover */
+    border-radius: 5px; /* Optional: Adds rounded corners for the background */
+}
+
+
+
 #flyweight-info {
     margin: 20px 0;
     text-align: center;
@@ -77,13 +89,16 @@ nav#main-nav ul li a {
 
 /* styles the paragraphs in the flyweight information sections */
 #flyweight-info p {
-    font-size: 18px;
-    background-color: whitesmoke;
+    font-size: 26px;
+    background-color: white;
     padding: 10px;
-    border: 1px solid lightgrey;
+    border: 1px;
     display: inline-block;
-    margin: 0 auto;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
 }
+
 
 .fighter-section {
     border-bottom: 2px solid red;
@@ -135,18 +150,55 @@ nav#main-nav ul li a {
     display: block;
     text-align: center;
     border-top: 2px solid red;
-    padding-top: 20px;
+    padding-top: 10px 20px;
+    background-color: white;
 }
 
 #social-icons {
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 #feedback-link {
     text-decoration: none;
     color: white;
     background-color: red;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 5px;
     font-size: 18px;
 }
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    border: 2px solid red;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+  }
+  
+  td img {
+    height: 100px;
+  }
+  
+  .nickname {
+    font-style: italic;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+  }
+
+  td {
+    line-height: 1.5;
+  }
